@@ -1,0 +1,118 @@
+body
+{
+	background: WhiteSmoke;
+	background-size: cover;
+	margin:0px 5px;
+	padding:0px;
+	font-family: Georgia;
+	color: #37481e;
+	text-shadow: 1px 1px #dce8c9;
+	font-size:25px;
+}
+#Logo
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Header
+{
+	font-size: 20px;	
+	text-align: center;
+}
+
+#AccountTile1
+{
+	float:left;
+	width:50%;
+	margin-bottom:4%;
+}
+
+#AccountTile2
+{
+	float:left;
+	width:30%;
+}
+
+#AccountTile3
+{
+	float:left;
+	//border: 1px blue solid;
+}
+
+#TransferTile1
+{
+	float:left;
+	width:49%;
+	//border: 1px green solid;
+	margin-bottom:4%;
+}
+
+#TransferTile2
+{
+	float:left;
+	width:49%;
+	//border: 1px green solid;
+}
+
+#CardTile
+{
+	float:left;
+	width:49%;
+	margin-bottom:4%;
+}
+
+#FriendTile
+{
+	float:left;
+	width:49%;
+	margin-bottom:4%;
+}
+#MainTile
+{
+	clear: both;
+	width:100%;
+	margin: 5% 2%;
+	border-top: 1px grey solid;	
+}
+
+#Content
+{
+	font-size:30px;
+}
+
+#FriendTable
+{
+	width: 80%;
+}
+#FriendTR:nth-child(even)
+{
+	background-color: #e6e6e6;
+}
+
+.title
+{
+	font-weight: bold;
+	text-align: center;
+	font-size : 35px;
+	color: #86af49;
+	text-shadow: 1px 1px #e3eaa7;
+	
+}
+
+input, option,td
+{
+	font-size:25px;
+}
+
+input[type=submit],button
+{
+	font-size: 25px;
+	color: White;
+	background-color: #4CAF50;
+	margin:2%;
+	text-shadow: 1px 1px Black;
+}
+
+
+
